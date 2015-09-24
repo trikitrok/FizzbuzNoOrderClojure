@@ -12,8 +12,7 @@
        (not (divisible-by? 3 number))))
 
 (defn- divisible-by-3-and-5? [number]
-  (and (divisible-by? 3 number)
-       (divisible-by? 5 number)))
+  (divisible-by? 15 number))
 
 (defn- not-divisible-by-3-nor-5? [number]
   (not (or (divisible-by? 3 number)
